@@ -32,7 +32,6 @@ const reducer = (state, action) => {
           `Cant remove product (id: ${action.id}) as its not in basket!`
         );
       }
-
       return {
         ...state,
         basket: newBasket,
