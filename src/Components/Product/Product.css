@@ -24,11 +24,14 @@
 }
 
 .product > button {
-  background: #f0c14b;
+  background: #f1d452;
   border: 1px solid;
   margin-top: 10px;
   border-color: #a88734 #9c7e31 #846a29;
   color: #111;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  height: 24px;
 }
 
 .product__price {
@@ -38,4 +41,10 @@
 .product__info {
   height: 100px;
   margin-bottom: 15px;
+}
+
+button:hover {
+  -webkit-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  transform: scale(1.05);
 }
